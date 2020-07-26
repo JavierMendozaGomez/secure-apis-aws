@@ -1,0 +1,11 @@
+
+
+service: myService 
+
+provider:
+  name: aws
+  runtime: nodejs12
+
+functions:
+  hello:
+    handler: handler.hello

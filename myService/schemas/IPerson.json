@@ -1,0 +1,1 @@
+{"type":"object","properties":{"firstname":{"type":"string","title":"firstname"},"lastName":{"type":"string","title":"lastName"},"age":{"type":"number","title":"age"}},"defaultProperties":[],"additionalProperties":false,"required":["age","firstname","lastName"],"$schema":"http://json-schema.org/draft-07/schema#"}
