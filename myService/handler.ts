@@ -1,5 +1,7 @@
 import {APIGatewayProxyResult} from 'aws-lambda';
 import {ICreateUserRequest} from './models';
+import middy from '@middy/core';
+import jsonBodyParser from '@middy/http-json-body-parser'
 
 export const createUser = async (event: ICreateUserRequest): Promise<APIGatewayProxyResult> => {
   const {firstname} = event.body.personalInfo;
@@ -11,4 +13,6 @@ export const createUser = async (event: ICreateUserRequest): Promise<APIGatewayP
     })
   };
 };
+
+export const createUserHandler = middy(createUser).use(jsonBodyParser());
 

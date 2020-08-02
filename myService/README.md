@@ -28,3 +28,16 @@ plugins:
 ```
 yarn add typescript-json-schema
 ```
+
+
+
+
+### Adding middy
+Possible idea of why you should start using middy in your typescript, javascript lambda functions
+
+We add middy to parse the body of the incoming requests
+
+```
+yarn add middy
+yarn add @middy/http-json-body-parser
+```
