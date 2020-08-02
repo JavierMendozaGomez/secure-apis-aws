@@ -1328,6 +1328,11 @@ npm-run-path@^4.0.0:
   dependencies:
     path-key "^3.0.0"
 
+object-hash@^1.1.7:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-1.3.1.tgz#fde452098a951cb145f039bb7d455449ddc126df"
+  integrity sha512-OSuu/pU4ENM9kmREg0BdNrUDIl1heYa4mBZacJc+vVWz4GtAwu7jO8s4AIt2aGRUTqxykpWzI3Oqnsm13tTMDA==
+
 object-inspect@^1.7.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.8.0.tgz#df807e5ecf53a609cc6bfe93eac3cc7be5b3a9d0"
@@ -1624,6 +1629,13 @@ semver@^7.1.3:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
   integrity sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==
 
+serverless-aws-documentation@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/serverless-aws-documentation/-/serverless-aws-documentation-1.1.0.tgz#e41d08de84d651f3db84348d926db369292731ff"
+  integrity sha512-b2iM1eZIWxQjAa6RNnARq+iXgiffbtSmKnZUh7l8KOkaD/BapqfOkKKi6MGxp3KxQFkW31sVsAiqJ0NQSSyXOw==
+  dependencies:
+    object-hash "^1.1.7"
+
 serverless-offline@^6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-6.5.0.tgz#13d87eac1fae6fe6543ce0545d91062267262e20"
@@ -1657,6 +1669,11 @@ serverless-offline@^6.5.0:
     update-notifier "^4.1.0"
     velocityjs "^2.0.0"
     ws "^7.2.1"
+
+serverless-reqvalidator-plugin@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/serverless-reqvalidator-plugin/-/serverless-reqvalidator-plugin-1.0.3.tgz#ddfbbd96202141cedd3afedce58ada641fcea390"
+  integrity sha512-OCGeF2w+LF5ITeWbhK7773j5s5dfM1+Qd92mUC9LAePRSSlxR+dS9wMEzzeOs3sdSeh/b28xRIkNFhFizGnB6Q==
 
 set-blocking@^2.0.0:
   version "2.0.0"

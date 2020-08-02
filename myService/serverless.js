@@ -18,7 +18,18 @@ const localConfig =
     },
     plugins: [
         'serverless-offline'
-    ]
+    ],
+    custom: {
+        documentation:{
+            api:{
+                info: {
+                    version: 'v0.0.0',
+                    title: 'myServiceAPI',
+                    description: 'Testing protected apis'
+                }
+            }
+        }
+    }
 };
 
 module.exports = localConfig;

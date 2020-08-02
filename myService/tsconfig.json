@@ -9,6 +9,6 @@
       "moduleResolution": "node",
       "lib": ["es2015", "dom"],
       "rootDir": "./",
-      "module": "commonjs",
+      "esModuleInterop": true,
     }
 }
